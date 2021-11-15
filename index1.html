@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index1.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+</head>
+<body>
+ 
+<!-- navbar -->
+ <nav>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a href="#showb" class="active">Home</a></li>
+          <li><a href="#internships">Internships</a></li>
+          <li><a href="#teams">Team</a></li>
+          <li><a href="#testimonial">Testimonials</a></li>
+        </ul>
+     </nav>
+  <!--login form-->
+  <input type="checkbox" id="showb">
+        <label for="showb" class="btn-show">SignUp/Login</label>
+        <div class="login">
+            <label for="showb" class="close-btn fas fa-times"></label>
+            <div class="login__content">
+                <div class="login__img">
+                    <img src="img/img-login.svg" alt="">
+                </div>
+
+                <div class="login__forms">
+                    <form action="" class="login__registre" id="login-in">
+                        <h1 class="login__title">Sign In</h1>
+    
+                        <div class="login__box">
+                            <i class='bx bx-user login__icon'></i>
+                            <input type="text" placeholder="Username" class="login__input">
+                        </div>
+    
+                        <div class="login__box">
+                            <i class='bx bx-lock-alt login__icon'></i>
+                            <input type="password" placeholder="Password" class="login__input">
+                        </div>
+
+                        <a href="#" class="login__forgot">Forgot password?</a>
+
+                        <a href="#" class="login__button">Sign In</a>
+
+                        <div>
+                            <span class="login__account">Don't have an Account ?</span>
+                            <span class="login__signin" id="sign-up">Sign Up</span>
+                        </div>
+                    </form>
+
+                    <form action="" class="login__create none" id="login-up">
+                        <h1 class="login__title">Create Account</h1>
+    
+                        <div class="login__box">
+                            <i class='bx bx-user login__icon'></i>
+                            <input type="text" placeholder="Username" class="login__input">
+                        </div>
+    
+                        <div class="login__box">
+                            <i class='bx bx-at login__icon'></i>
+                            <input type="text" placeholder="Email" class="login__input">
+                        </div>
+
+                        <div class="login__box">
+                            <i class='bx bx-lock-alt login__icon'></i>
+                            <input type="password" placeholder="Password" class="login__input">
+                        </div>
+
+                        <a href="#" class="login__button">Sign Up</a>
+
+                        <div>
+                            <span class="login__account">Already have an Account ?</span>
+                            <span class="login__signup" id="sign-in">Sign In</span>
+                        </div>
+
+                        <div class="login__social">
+                            <a href="#" class="login__social-icon"><i class='bx bxl-facebook' ></i></a>
+                            <a href="#" class="login__social-icon"><i class='bx bxl-twitter' ></i></a>
+                            <a href="#" class="login__social-icon"><i class='bx bxl-google' ></i></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+<!-- sec1 -->
+  <div id="section1">
+    <div id="form">
+      <div class="form_container">
+      <p>Internship Program</p>
+      <h1>We're hiring</h1>
+      <p>Find the right internship for you to gain work experience and kickstart your career</p>
+      <div class="location">
+      <input type="text" placeholder="job title">
+       <i class="fas fa-project-diagram"></i>
+      </div>
+      <div class="location">
+      <input type="text" placeholder="location">
+      <i class="fas fa-search-location"></i>
+      </div>
+      <button type="submit" class="btn">Search your Internship</button>
+      </div>
+  </div>
+  <div id="image">
+      <img src="images/alphatestersanimation2.gif" alt="">
+  </div>
+</div>
+<!-- sec2 -->
+<div id="internships"></div>
+<h2>Internships we Provide</h2>
+<div class="img-area" >
+    <div class="container2" data-aos="fade-up" data-aos-duration="6000">
+        <img src="images/web.png" alt="" class="image">
+        <div class="overlay">
+          <div class="text">
+              <h3>Web Development</h3>
+              <h5>AVAILABLE</h5>
+              <p>Internship Period: 2 Months</p>
+          </div>
+        </div>
+      </div>
+    <div class="container2" data-aos="fade-up" data-aos-duration="6000">
+        <img src="images/aiml.jfif" alt="" class="image">
+        <div class="overlay">
+            <div class="text">
+                <h3>Machine Learning</h3>
+                <h5>AVAILABLE</h5>
+                <p>Internship Period: 2 Months</p>
+            </div>
+        </div>
+      </div>
+    <div class="container2" data-aos="fade-up" data-aos-duration="6000">
+        <img src="images/andoid.png" alt="" class="image">
+        <div class="overlay">
+            <div class="text">
+                <h3>Android</h3>
+                <h5>AVAILABLE</h5>
+                <p>Internship Period: 2.5 Months</p>
+            </div>
+        </div>
+      </div>
+</div>   
+
+<!-- Team -->
+<div id="teams"></div>
+<div class="team">
+  <h1>
+    TEAM
+  </h1>
+</div>
+<div class="img-container">
+  <div class="img-box">
+      <div class="imagesss">
+          <img src="images/a.jfif" >
+      </div>
+      <div class="img-content">
+          <div>
+              <h2>Name</h2>
+              <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+      </div>
+  </div>
+  <div class="img-box">
+      <div class="imagesss">
+          <img src="images/b.jfif" >
+      </div>
+      <div class="img-content">
+          <div>
+              <h2>Name</h2>
+              <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+      </div>
+  </div>
+  <div class="img-box">
+      <div class="imagesss">
+          <img src="images/c.jfif" >
+      </div>
+      <div class="img-content">
+          <div>
+              <h2>Name</h2>
+              <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Testimonial-->
+<div id="testimonial"></div>
+<div class="testimonial">
+<div class="slideshow-container">
+  <h2 class="testimonial1">Testimonials</h2>
+  <div class="mySlides">
+    <q>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid laboriosam velit ratione nesciunt inventore! Eligendi dolorum deserunt, obcaecati voluptatum quia optio, molestias reprehenderit soluta, eveniet quisquam iure enim consequuntur. Commodi.</q>
+    <p class="author">- ABC(Android)</p>
+  </div>
+  
+  <div class="mySlides">
+    <q>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro doloribus quisquam inventore eaque praesentium cumque mollitia rerum iusto, libero exercitationem perspiciatis cum aliquam sequi placeat, ea fugit autem natus minus?</q>
+    <p class="author">- PQR(Web Development)</p>
+  </div>
+  
+  <div class="mySlides">
+    <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolor doloremque ullam exercitationem, optio dolore ipsa, nisi assumenda quisquam aspernatur est numquam magnam voluptatum explicabo deleniti tempore eligendi doloribus fugit.</q>
+    <p class="author">- XYZ(ML)</p>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  </div>
+  
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+</div>
+<!-- footer -->
+
+<footer>
+  <div class="footer1">
+    <div class="sec1">
+      <h2 class="head">Company Name</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas voluptatibus amet sequi necessitatibus odit rem soluta? </p>
+    </div>
+    <div class="sec1">
+      <h2 class="head ">Address</h2>
+      <div class="content">
+     <span class="fas fa-map-marker-alt"></span>
+     <span class="text">123 street Colony District </span> <br>
+     <span class="fas fa-phone-alt"></span>
+     <span class="text">1234567890</span>  <br>
+      <span class="fas fa-envelope"></span>
+      <span class="text">abc@example.com</span>
+      </div>
+    </div>
+    <div class="sec1">
+      <h2 class="head">Follow Us</h2>
+      <div class="content">
+              <div class="social">
+              <a href="#"><span class="fab fa-facebook-f"></span></a>
+              <a href="#"><span class="fab fa-twitter"></span></a>
+              <a href="#"><span class="fab fa-instagram"></span></a>
+              <a href="#"><span class="fab fa-youtube"></span></a>
+            </div>
+          </div>
+    </div>
+    <div class="sec1">
+      <h2 class="head">Contact Us</h2>
+      <form action="">
+        <p class="email">Email <br> <input type="email" name="Email ID" placeholder="john@abc.com" required ></p>
+        <p class="text">Message <br> <input type="text" name="Message" placeholder="Your Message Here" required></p>
+        <button class="submit">Submit</button>
+
+      </form>
+    </div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+ AOS.init({
+     offset: 100,
+     duration: 400
+ });
+</script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+</footer>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+    AOS.init();
+   </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+<script src="index1.js"></script>
+   
+</body>
+</html>
